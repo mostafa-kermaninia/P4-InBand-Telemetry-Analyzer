@@ -1,0 +1,20 @@
+# P4 Build Artifacts
+*.json
+*.p4i
+!p4app.json
+!topology.json
+
+# Logs and PCAPs
+*.log
+*.pcap
+*.pcapng
+
+# IDE and System
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
